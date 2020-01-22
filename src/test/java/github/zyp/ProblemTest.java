@@ -1,6 +1,7 @@
 package github.zyp;
 
 import github.zyp.no4.Problem4;
+import github.zyp.no4.Problem5;
 import org.junit.Test;
 
 public class ProblemTest {
@@ -18,5 +19,11 @@ public class ProblemTest {
         };
 
         assert Problem4.Find(7, testCase);
+    }
+
+    @Test
+    public void Problem5Test() {
+        String testCase = "hello world";
+        assert Problem5.replaceSpace(new StringBuffer(testCase)).equals("hello%20world");
     }
 }
