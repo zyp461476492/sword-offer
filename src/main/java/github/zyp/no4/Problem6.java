@@ -1,5 +1,7 @@
 package github.zyp.no4;
 
+import github.zyp.no4.common.ListNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -8,6 +10,7 @@ import java.util.Stack;
  * 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
  */
 public class Problem6 {
+
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> res = new ArrayList<Integer>();
         Stack<Integer> stack = new Stack<Integer>();
@@ -21,12 +24,4 @@ public class Problem6 {
         return res;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }
