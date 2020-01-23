@@ -26,4 +26,9 @@ public class ProblemTest {
         String testCase = "hello world";
         assert Problem5.replaceSpace(new StringBuffer(testCase)).equals("hello%20world");
     }
+
+    @Test
+    public void problem6Test() {
+
+    }
 }
