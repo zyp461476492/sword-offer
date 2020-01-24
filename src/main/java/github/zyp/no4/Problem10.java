@@ -8,6 +8,10 @@ package github.zyp.no4;
  * n = 0 fn = 0
  * n = 1 fn = 1
  * n > 1 fn = fn-1 + fn - 2
+ *
+ * 拓展：
+ *  青蛙跳台阶，也是费伯纳西数列
+ *  青蛙可以跳1，2，..，n 级台阶，fn=2的n次方 - 1
  */
 public class Problem10 {
     public static int Fibonacci(int n) {
